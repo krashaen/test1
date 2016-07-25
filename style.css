@@ -1,0 +1,17 @@
+﻿body {
+
+}
+
+.logo {
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: #3d6cb0;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
