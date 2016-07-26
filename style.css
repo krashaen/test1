@@ -1,36 +1,116 @@
-<<<<<<< HEAD
-﻿body {
+﻿@font-face {
+    font-family: "MyriadProRegular";
+    src: url("fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.normal {
+	font-family:MyriadProRegular;
+	font-size: 62px; 
+	font-weight: normal;
+}
+
+.bold {
+	font-family: "MyriadProBold";
+	font-size: 74.1px;
+}
+
+.small-bold {
+	font-family: "MyriadProBold";
+	font-size: 30px;
+}
+body {
+
+}
+.content {
+	width:100%;
+}
+
+.column-left {
+	float: left;
+	width:50%;
+	min-width: 550px;
+	
+}
+
+.column-right {
+	float: right;
+	width: 50%;
+	min-width: 550px;
 }
 
 .logo {
-	padding-top: 20px;
-	padding-left: 40px;
+	padding-left: 23%;
 }
 
 .circle {
-	width: 100px;
-	height: 100px;
-	background: #3d6cb0;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-=======
-﻿body {
-
+	padding-top: 19%;
+	padding-left: 6%;
 }
 
-.logo {
-	padding-top: 20px;
-	padding-left: 40px;
+.circle1 {
+	width:276px;
+	height:276px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	border:1px solid #3f6fb6;
 }
 
-.circle {
-	width: 100px;
-	height: 100px;
-	background: #3d6cb0;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
->>>>>>> 3bcbea0b7a92a6c98af6f08cf1b286c7a04c1bf2
+.circle2{
+	position: relative;
+	top:7%;
+	left:7%;
+	width: 240px;
+	height:240px;
+	border-radius: 50%;
+	background-color: #3f6fb6;
 }
+
+.fullname {
+	padding:0;
+}
+
+.fullname h1 {
+	margin: 0;
+}
+.fullname .bold {
+	padding-left: 23%;
+	margin-top: -3%;
+	letter-spacing: -1px;
+}
+
+.fullname .normal {
+	padding-top: 4%;
+	padding-left: 24%;
+	letter-spacing: 3px;
+}
+
+.fullname .small-bold {
+	
+}
+
+.bar {
+	position: absolute;
+	background-color: #3f6fb6;
+}
+.progress {
+    background-color: #e6e6e6;
+    border: 0;
+    width: 80%;
+    height: 18px;
+}
+
