@@ -1,116 +1,158 @@
-﻿@font-face {
+﻿
+@font-face {
     font-family: "MyriadProRegular";
-    src: url("fonts/MyriadProRegular/MyriadProRegular.eot");
-    src: url("fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
-    url("fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
-    url("fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
+    src: url("fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
 }
-
 @font-face {
     font-family: "MyriadProBold";
-    src: url("fonts/MyriadProBold/MyriadProBold.eot");
-    src: url("fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
-    url("fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
-    url("fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
+    src: url("fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadProBold/MyriadProBold.woff") format("woff"), url("fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
 }
-
 .normal {
-	font-family:MyriadProRegular;
-	font-size: 62px; 
-	font-weight: normal;
+    font-family: MyriadProRegular;
+    font-size: 62px;
+    font-weight: normal;
 }
-
 .bold {
-	font-family: "MyriadProBold";
-	font-size: 74.1px;
+    font-family: "MyriadProBold";
+    font-size: 74.1px;
 }
-
 .small-bold {
-	font-family: "MyriadProBold";
-	font-size: 30px;
+    font-family: "MyriadProBold";
+    font-size: 30px;
 }
 body {
-
 }
 .content {
-	width:100%;
+    width: 100%;
 }
-
 .column-left {
-	float: left;
-	width:50%;
-	min-width: 550px;
-	
+    float: left;
+    min-width: 550px;
+    width: 50%;
 }
-
 .column-right {
-	float: right;
-	width: 50%;
-	min-width: 550px;
+    float: right;
+    min-width: 550px;
+    width: 50%;
 }
-
 .logo {
-	padding-left: 23%;
+    padding-left: 23%;
 }
-
 .circle {
-	padding-top: 19%;
-	padding-left: 6%;
+    padding-left: 6%;
+    padding-top: 19%;
 }
-
 .circle1 {
-	width:276px;
-	height:276px;
-	border-radius: 50%;
-	background-color: #ffffff;
-	border:1px solid #3f6fb6;
+    background-color: #ffffff;
+    border: 1px solid #3f6fb6;
+    border-radius: 50%;
+    height: 276px;
+    width: 276px;
 }
-
-.circle2{
-	position: relative;
-	top:7%;
-	left:7%;
-	width: 240px;
-	height:240px;
-	border-radius: 50%;
-	background-color: #3f6fb6;
+.circle2 {
+    background-color: #3f6fb6;
+    border-radius: 50%;
+    height: 240px;
+    left: 7%;
+    position: relative;
+    top: 7%;
+    width: 240px;
 }
-
 .fullname {
-	padding:0;
+    padding: 0;
 }
-
 .fullname h1 {
-	margin: 0;
+    margin: 0;
 }
 .fullname .bold {
-	padding-left: 23%;
-	margin-top: -3%;
-	letter-spacing: -1px;
+    letter-spacing: -1px;
+    margin-top: -22px;
+    padding-left: 153px;
 }
-
 .fullname .normal {
-	padding-top: 4%;
-	padding-left: 24%;
-	letter-spacing: 3px;
+    letter-spacing: 2.5px;
+    padding-left: 160px;
+    padding-top: 28px;
+}
+.fullname .small-bold {
+    letter-spacing: -1px;
+    margin-top: -3px;
+    padding-left: 193px;
+}
+.profile {
+    padding-left: 1px;
+    padding-top: 1px;
+}
+.profile .bold {
+    color: #3f6fb6;
+    font-size: 49px;
+}
+.small-circle {
+    padding-left: 65px;
+    padding-top: 91px;
+}
+.small-circle1 {
+    background-color: #ffffff;
+    border: 1px solid #3f6fb6;
+    border-radius: 50%;
+    float: left;
+    height: 85px;
+    width: 85px;
+}
+.small-circle2 {
+    background-color: #3f6fb6;
+    background-image: url("images/profile.png");
+    background-position: 6px 2px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 80px;
+    left: 3%;
+    position: relative;
+    top: 4%;
+    width: 80px;
+    background-size: 50%;
+    background-position: 50%;
+}
+.name-block {
+    margin-top: -22px;
+    margin-left: 161px;
 }
 
-.fullname .small-bold {
-	
+.line-block {
+    background-color: #3f6fb6;
+    height: 7px;
+    width: 201px;
+    margin-top: -66px;
+    margin-left: 198px;
+}
+
+.text {
+    font-family: MyriadProRegular;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    padding-top: 53px;
+    padding-left: 66px;
+    width: 484px;
+}
+
+.text .bold {
+    color: #000000;
+    font-size: 18px;
+    line-height: 23px;
 }
 
 .bar {
-	position: absolute;
-	background-color: #3f6fb6;
+    background-color: #3f6fb6;
+    position: absolute;
 }
 .progress {
     background-color: #e6e6e6;
-    border: 0;
-    width: 80%;
+    border: 0 none;
     height: 18px;
+    width: 80%;
 }
-
