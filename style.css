@@ -87,7 +87,8 @@ body {
     padding-left: 1px;
     padding-top: 1px;
 }
-.profile .bold {
+.profile .bold,
+.contact .bold  {
     color: #3f6fb6;
     font-size: 49px;
 }
@@ -144,6 +145,59 @@ body {
     color: #000000;
     font-size: 18px;
     line-height: 23px;
+}
+
+.contact {
+	 margin-top: -38px;
+}
+
+.contact .small-circle2 {
+	background-image: url("images/contact.png");
+}
+
+.contact .line-block {
+    width: 177px;
+    margin-left: 222px;
+}
+
+.contact-date {
+    margin: 77px 65px;
+}
+.contact-date .e-mail {
+    padding-top: 3px;
+}
+.contact-date .phone {
+    padding-top: 3px;
+}
+
+.contact-date .website {
+	padding-top: 3px;
+    padding-left: 1px;
+}
+
+.contact-date h1 {
+	font-family:MyriadProBold;
+	font-size: 24px;
+	color:#3d6cb0; 
+	font-weight: normal;
+}
+
+.personal-date {
+    font-family: MyriadProRegular;
+    color: #000000;
+}
+
+.address .personal-date {
+    padding-left: 54px;
+}
+.e-mail .personal-date {
+    padding-left: 75px;
+}
+.phone .personal-date {
+    padding-left: 74px;
+}
+.website .personal-date {
+    padding-left: 56px;
 }
 
 .bar {
