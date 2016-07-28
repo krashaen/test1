@@ -33,22 +33,29 @@ body {
 }
 .content {
     width: 100%;
+    margin: 0 auto;
 }
 .column-left {
     float: left;
     min-width: 550px;
+    max-width: 1000px;
     width: 50%;
+    height: 2000px;
+    margin-left: 66px;
+    margin-top: 98px;
 }
 .column-right {
-    float: right;
+    float: left;
+    max-width: 800px;
     min-width: 550px;
     width: 50%;
 }
 .logo {
     height: 276px;
-    margin-left: 185px;
-    margin-top: 100px;
+    margin-left: 0;
     width: 276px;
+    text-align: center;
+    margin: 0 auto;
 }
 .circle-outer {
     background-color: #ffffff;
@@ -76,7 +83,6 @@ body {
 .fullname {
     letter-spacing: 3px;
     line-height: 62px;
-    margin-left: -17px;
     margin-top: 36px;
     text-align: center;
     vertical-align: middle;
@@ -102,10 +108,9 @@ body {
     line-height: 81px;
 }
 .profile {
-    margin-left: 66px;
     margin-top: 80px;
 }
-.profile .bold, .contact .bold, .skills .bold {
+.profile .bold, .contact .bold, .skills .bold, .education .bold, .experience .bold, .software .bold {
     color: #3f6fb6;
     font-size: 49px;
     margin: 0;
@@ -147,7 +152,6 @@ body {
     line-height: 23px;
 }
 .contact {
-    margin-left: 66px;
     margin-top: 51px;
 }
 
@@ -160,12 +164,20 @@ body {
 .skills .circle-inner {
     background-image: url("images/scills.png");
 }
+.education .circle-inner {
+    background-image: url("images/education.png");
+}
+.experience .circle-inner{
+    background-image: url("images/experience.png");
+}
+.software .circle-inner{
+    background-image: url("images/software.png");
+}
 .contact .line-align {
     width: 177px;
 }
 
 .skills {
-    margin-left: 65px;
     margin-top: 55px;
 }
 
@@ -251,11 +263,12 @@ body {
 }
 .bar {
     background-color: #3f6fb6;
-    position: absolute;
+    width: 80%;
+    height: 18px;
 }
 .progress {
     background-color: #e6e6e6;
     border: 0 none;
     height: 18px;
-    width: 80%;
+    width: 100px;
 }
