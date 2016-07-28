@@ -11,6 +11,11 @@
     font-weight: normal;
     src: url("fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadProBold/MyriadProBold.woff") format("woff"), url("fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
 }
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
 .normal {
     font-family: MyriadProRegular;
     font-size: 62px;
@@ -40,164 +45,154 @@ body {
     width: 50%;
 }
 .logo {
-    padding-left: 23%;
+    height: 276px;
+    margin-left: 185px;
+    margin-top: 100px;
+    width: 276px;
 }
-.circle {
-    padding-left: 6%;
-    padding-top: 19%;
-}
-.circle1 {
+.circle-outer {
     background-color: #ffffff;
     border: 1px solid #3f6fb6;
     border-radius: 50%;
-    height: 276px;
-    width: 276px;
+    height: 100%;
+    position: relative;
+    width: 100%;
 }
-.circle2 {
+.circle-inner {
     background-color: #3f6fb6;
     border-radius: 50%;
-    height: 240px;
-    left: 7%;
-    position: relative;
-    top: 7%;
-    width: 240px;
-}
-.fullname {
-    padding: 0;
+    bottom: 0;
+    height: 90%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 90%;
 }
 .fullname h1 {
     margin: 0;
 }
-.fullname .bold {
-    letter-spacing: -1px;
-    margin-top: -22px;
-    padding-left: 153px;
+.fullname {
+    letter-spacing: 3px;
+    line-height: 62px;
+    margin-left: -17px;
+    margin-top: 36px;
+    text-align: center;
+    vertical-align: middle;
 }
-.fullname .normal {
-    letter-spacing: 2.5px;
-    padding-left: 160px;
-    padding-top: 28px;
+.fullname .bold {
+    letter-spacing: -3px;
 }
 .fullname .small-bold {
     letter-spacing: -1px;
-    margin-top: -3px;
-    padding-left: 193px;
 }
-.profile {
-    padding-left: 1px;
-    padding-top: 1px;
-}
-.profile .bold,
-.contact .bold,
-.skills .bold  {
-    color: #3f6fb6;
-    font-size: 49px;
-}
-.small-circle {
-    padding-left: 65px;
-    padding-top: 91px;
-}
-.small-circle1 {
-    background-color: #ffffff;
-    border: 1px solid #3f6fb6;
-    border-radius: 50%;
+.title .circle {
     float: left;
     height: 85px;
     width: 85px;
 }
-.small-circle2 {
-    background-color: #3f6fb6;
+.title .circle-inner {
     background-image: url("images/profile.png");
-    background-position: 6px 2px;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
-    border-radius: 50%;
-    height: 80px;
-    left: 3%;
-    position: relative;
-    top: 4%;
-    width: 80px;
-    background-size: 50%;
-    background-position: 50%;
+    background-size: 50% auto;
+}
+.title {
+    line-height: 81px;
+}
+.profile {
+    margin-left: 66px;
+    margin-top: 80px;
+}
+.profile .bold, .contact .bold, .skills .bold {
+    color: #3f6fb6;
+    font-size: 49px;
+    margin: 0;
 }
 .name-block {
-    margin-top: -22px;
-    margin-left: 161px;
+    float: left;
+    margin-left: 11px;
+    vertical-align: middle;
 }
 
 .line-block {
     background-color: #3f6fb6;
+    bottom: 0;
     height: 7px;
+    margin: auto;
+    margin-left: 8px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.line-align {
+    float: left;
+    height: 85px;
+    position: relative;
     width: 201px;
-    margin-top: -66px;
-    margin-left: 198px;
 }
 
 .text {
     font-family: MyriadProRegular;
     font-size: 18px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     line-height: 22px;
-    padding-top: 53px;
-    padding-left: 66px;
     width: 484px;
 }
-
 .text .bold {
     color: #000000;
     font-size: 18px;
     line-height: 23px;
 }
-
 .contact {
-	 margin-top: -38px;
+    margin-left: 66px;
+    margin-top: 51px;
 }
 
-.contact .small-circle2 {
-	background-image: url("images/contact.png");
+.contact-date {
+    margin-top: 38px;
 }
-
-.skills .small-circle2 {
-	background-image: url("images/scills.png");
+.contact .circle-inner {
+    background-image: url("images/contact.png");
 }
-
-.contact .line-block {
+.skills .circle-inner {
+    background-image: url("images/scills.png");
+}
+.contact .line-align {
     width: 177px;
-    margin-left: 222px;
 }
 
-.skills .line-block {
-    margin-left: 165px;
+.skills {
+    margin-left: 65px;
+    margin-top: 55px;
+}
+
+.skills .line-align {
     width: 232px;
 }
 
-
-.contact-date {
-    margin: 77px 65px;
-}
 .contact-date .e-mail {
     padding-top: 3px;
 }
 .contact-date .phone {
     padding-top: 3px;
 }
-
 .contact-date .website {
-	padding-top: 3px;
     padding-left: 1px;
+    padding-top: 3px;
 }
-
 .contact-date h1 {
-	font-family:MyriadProBold;
-	font-size: 24px;
-	color:#3d6cb0; 
-	font-weight: normal;
+    color: #3d6cb0;
+    font-family: MyriadProBold;
+    font-size: 24px;
+    font-weight: normal;
 }
-
 .personal-date {
-    font-family: MyriadProRegular;
     color: #000000;
+    font-family: MyriadProRegular;
 }
-
 .address .personal-date {
     padding-left: 54px;
 }
@@ -210,60 +205,50 @@ body {
 .website .personal-date {
     padding-left: 56px;
 }
-.skills {
-    margin-top: -111px;
-}
 
 .creative {
     margin-left: 119px;
     margin-top: -11px;
 }
-
 .point {
     background-color: #3f6fb6;
     border-radius: 50%;
-    height: 21px;
-    width: 21px;
     float: left;
+    height: 21px;
     margin-right: 12px;
+    width: 21px;
 }
-
 .point.gray {
-	background-color: #e6e6e6;
+    background-color: #e6e6e6;
 }
-
 .creative-title {
     font-family: MyriadProRegular;
-    font-weight: normal;
     font-size: 15px;
-    margin-top: 68px;
+    font-weight: normal;
     margin-left: 253px;
+    margin-top: 68px;
 }
-
 .teamwork-title {
     font-family: MyriadProRegular;
-    font-weight: normal;
     font-size: 15px;
+    font-weight: normal;
     margin-left: 236px;
     margin-top: 65px;
 }
-
 .innovate-title {
     font-family: MyriadProRegular;
-    font-weight: normal;
     font-size: 15px;
+    font-weight: normal;
     margin-left: 247px;
     margin-top: 65px;
 }
-
 .communication-title {
     font-family: MyriadProRegular;
-    font-weight: normal;
     font-size: 15px;
+    font-weight: normal;
     margin-left: 196px;
     margin-top: 65px;
 }
-
 .bar {
     background-color: #3f6fb6;
     position: absolute;
