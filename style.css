@@ -77,7 +77,10 @@ body {
     top: 0;
     width: 90%;
 }
-.fullname h1 {
+h1 {
+    margin: 0;
+}
+h2 {
     margin: 0;
 }
 .fullname {
@@ -156,7 +159,8 @@ body {
 }
 
 .contact-date {
-    margin-top: 38px;
+    line-height: 66px;
+    margin-top: 18px;
 }
 .contact .circle-inner {
     background-image: url("images/contact.png");
@@ -178,49 +182,27 @@ body {
 }
 
 .skills {
-    margin-top: 55px;
+    margin-top: 40px;
 }
 
 .skills .line-align {
     width: 232px;
 }
 
-.contact-date .e-mail {
-    padding-top: 3px;
-}
-.contact-date .phone {
-    padding-top: 3px;
-}
-.contact-date .website {
-    padding-left: 1px;
-    padding-top: 3px;
-}
+
 .contact-date h1 {
     color: #3d6cb0;
     font-family: MyriadProBold;
     font-size: 24px;
     font-weight: normal;
 }
-.personal-date {
+.personal-date  h2{
     color: #000000;
     font-family: MyriadProRegular;
 }
-.address .personal-date {
-    padding-left: 54px;
-}
-.e-mail .personal-date {
-    padding-left: 75px;
-}
-.phone .personal-date {
-    padding-left: 74px;
-}
-.website .personal-date {
-    padding-left: 56px;
-}
 
 .creative {
-    margin-left: 119px;
-    margin-top: -11px;
+
 }
 .point {
     background-color: #3f6fb6;
@@ -233,34 +215,26 @@ body {
 .point.gray {
     background-color: #e6e6e6;
 }
-.creative-title {
+.date-title {
     font-family: MyriadProRegular;
     font-size: 15px;
     font-weight: normal;
-    margin-left: 253px;
-    margin-top: 68px;
+
 }
-.teamwork-title {
-    font-family: MyriadProRegular;
-    font-size: 15px;
-    font-weight: normal;
-    margin-left: 236px;
-    margin-top: 65px;
+
+.skill {
+    margin-bottom: 30px;
 }
-.innovate-title {
-    font-family: MyriadProRegular;
-    font-size: 15px;
-    font-weight: normal;
-    margin-left: 247px;
-    margin-top: 65px;
+
+.column-title {
+    float:left;
 }
-.communication-title {
-    font-family: MyriadProRegular;
-    font-size: 15px;
-    font-weight: normal;
-    margin-left: 196px;
-    margin-top: 65px;
+
+.column-date {
+    float: left;
+    margin-left: 52px;
 }
+
 .bar {
     background-color: #3f6fb6;
     width: 80%;
