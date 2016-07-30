@@ -47,6 +47,10 @@
     width: 484px;
 }
 
+.graphic-designer {
+    margin-left: 38px;
+}
+
 .logo {
     height: 276px;
     margin: 0 auto;
@@ -105,7 +109,7 @@ h1,h2,p {
     background-image: url("images/profile.png");
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: 50% auto;
+    background-size: 50%;
 }
 
 .title {
@@ -386,7 +390,7 @@ h1,h2,p {
 .bar {
     background-color: #3f6fb6;
     height: 26px;
-    width: 80%;
+    width: 92%;
 }
 
 .progress {
@@ -395,3 +399,20 @@ h1,h2,p {
     height: 26px;
     width: 332px;
 }
+
+.illustrator {
+    width: 71%
+}
+
+.indesign {
+    width: 57%;
+}
+
+.dreamweaver {
+    width: 83%;
+}
+
+.after-effects {
+    width: 31%;
+}
+
