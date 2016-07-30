@@ -5,48 +5,55 @@
     font-weight: normal;
     src: url("fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
 }
+
 @font-face {
     font-family: "MyriadProBold";
     font-style: normal;
     font-weight: normal;
     src: url("fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadProBold/MyriadProBold.woff") format("woff"), url("fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
 }
+
 .clearfix::after {
     clear: both;
     content: "";
     display: table;
 }
+
 .normal {
     font-family: MyriadProRegular;
     font-size: 62px;
     font-weight: normal;
 }
+
 .bold {
     font-family: "MyriadProBold";
     font-size: 74.1px;
 }
+
 .small-bold {
     font-family: "MyriadProBold";
     font-size: 30px;
 }
-body {
-}
+
 .content {
     margin: 0 auto;
-    width: 1366px;
+    width: 1400px;
 }
+
 .column {
     float: left;
     margin-left: 66px;
     margin-top: 98px;
     width: 484px;
 }
+
 .logo {
     height: 276px;
     margin: 0 auto;
     text-align: center;
     width: 276px;
 }
+
 .circle-outer {
     background-color: #ffffff;
     border: 1px solid #3f6fb6;
@@ -55,6 +62,7 @@ body {
     position: relative;
     width: 100%;
 }
+
 .circle-inner {
     background-color: #3f6fb6;
     border-radius: 50%;
@@ -67,40 +75,47 @@ body {
     top: 0;
     width: 90%;
 }
+
 h1,h2,p {
     margin: 0;
 }
 
 .fullname {
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     line-height: 62px;
-    margin-top: 36px;
-    text-align: center;
-    vertical-align: middle;
+    margin-top: 38px;
+    margin-left: 70px;
 }
+
 .fullname .bold {
     letter-spacing: -3px;
 }
+
 .fullname .small-bold {
     letter-spacing: -1px;
 }
+
 .title .circle {
     float: left;
     height: 85px;
     width: 85px;
 }
+
 .title .circle-inner {
     background-image: url("images/profile.png");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 50% auto;
 }
+
 .title {
     line-height: 81px;
 }
+
 .profile {
     margin-top: 80px;
 }
+
 .profile .bold, 
 .contact .bold, 
 .skills .bold, 
@@ -117,6 +132,7 @@ h1,h2,p {
     margin-left: 12px;
     vertical-align: middle;
 }
+
 .line-block {
     background-color: #3f6fb6;
     bottom: 0;
@@ -126,56 +142,72 @@ h1,h2,p {
     top: 0;
     width: 100%;
 }
+
 .line-align {
     float: left;
     height: 85px;
     position: relative;
     width: 40%;
 }
+
 .text {
     font-family: MyriadProRegular;
     font-size: 18px;
     letter-spacing: 0;
     line-height: 22px;
+    margin-top: 15px;
 }
+
 .text .bold {
     color: #000000;
     font-size: 18px;
     line-height: 23.5px;
 }
+
 .contact {
     margin-top: 51px;
 }
+
 .contact-date {
     line-height: 62px;
     margin-top: 23px;
 }
+
 .contact .circle-inner {
     background-image: url("images/contact.png");
 }
+
 .skills .circle-inner {
     background-image: url("images/scills.png");
 }
+
 .education .circle-inner {
     background-image: url("images/education.png");
     background-size: 75%;
 }
+
 .experience .circle-inner {
     background-image: url("images/experience.png");
+    background-size: 65%;
 }
+
 .software .circle-inner {
     background-image: url("images/software.png");
     background-size: 65%;
 }
+
 .contact .line-align {
     width: 35%;
 }
+
 .skills {
     margin-top: 35px;
 }
+
 .skills .line-align {
     width: 232px;
 }
+
 .contact-date .name {
     color: #3d6cb0;
     font-family: MyriadProBold;
@@ -184,14 +216,14 @@ h1,h2,p {
     width: 20%;
     display: inline-block;
 }
+
 .contact-date .date {
     color: #000000;
     font-family: MyriadProRegular;
     font-size: 24px;
     margin-left: 54px;
 }
-.creative {
-}
+
 .point {
     background-color: #3f6fb6;
     border-radius: 50%;
@@ -200,31 +232,35 @@ h1,h2,p {
     margin-right: 12px;
     width: 21px;
 }
+
 .point.gray {
     background-color: #e6e6e6;
 }
+
 .date-title {
     font-family: MyriadProRegular;
     font-size: 15px;
     font-weight: normal;
 }
+
 .user-date {
     margin-left: 24px;
 }
+
 .column-title {
     float: left;
 }
+
 .column-date {
     float: left;
     margin-left: 52px;
 }
-.contact-date .title {
-
-}
 
 .right{
     width: 748px;
-
+    margin: 0;
+    margin-top: 83px;
+    margin-left: 102px;
 }
 
 .skills-date {
@@ -236,15 +272,11 @@ h1,h2,p {
     padding-top: 12px;
 }
 
-.education li {
-    
-}
-
 .degree {
     color: #3f6fb6;
     font-family: MyriadProBold;
     font-size: 31px;
-
+    margin-left: 47px;
 }
 
 .degree-date,
@@ -256,13 +288,39 @@ h1,h2,p {
     font-size: 31px;
 }
 
+.degree-date {
+    margin-left: 11px;
+}
 
-.education li {
+.university-name {
+    margin-left: 47px;
+}
+
+.education li,
+.experience li {
     list-style: none;
 }
 
-.education ul {
+.education ul,
+.experience ul {
     padding: 0;
+    margin-left: 15px;
+    margin-top: 31px;
+    line-height: 31px;
+}
+
+.experience {
+    margin-top: 40px;  
+}
+
+.experience ul {
+    margin-top: 55px;
+    line-height: 33px;
+}
+
+.experience .name-block {
+    margin-left: 28px;
+    margin-top: 4px;
 }
 
 .education .name-block{
@@ -274,30 +332,52 @@ h1,h2,p {
 }
 
 .marker{
-
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 24px;
+    height: 24px;
     background-color: #000000;
     border-radius: 50%;
-    vertical-align: middle; 
+    position: absolute;
+    transform: translateY(30%);
 }
 
 .degree-title{
+    position: relative;
     display: inline;
 }
 
 .degree-description {
     font-size: 18px;
+    margin-left: 50px;
+}
+
+.experience .degree {
+    color: #000000;
+}
+
+.software .name-block {
+    margin-left: 28px;
+    margin-top: 2px;
+}
+
+.software {
+    margin-top: 41px;
 }
 
 .software-column {
     float:left;
 }
 
-.right-pad{
-    margin-left: 80px;
+.software-info {
+    line-height: 24px;
+    margin-left: 8px;
+    margin-top: 2px;
 }
+
+.right-pad{
+    margin-left: 76px;
+}
+
 .technology-title{
     margin-bottom: 24px;
     margin-top: 33px;
@@ -305,12 +385,13 @@ h1,h2,p {
 
 .bar {
     background-color: #3f6fb6;
-    height: 18px;
+    height: 26px;
     width: 80%;
 }
+
 .progress {
     background-color: #e6e6e6;
     border: 0 none;
-    height: 18px;
+    height: 26px;
     width: 332px;
 }
