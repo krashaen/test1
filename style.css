@@ -32,30 +32,20 @@
 body {
 }
 .content {
-    width: 100%;
     margin: 0 auto;
+    width: 1366px;
 }
-.column-left {
+.column {
     float: left;
-    min-width: 550px;
-    max-width: 1000px;
-    width: 50%;
-    height: 2000px;
     margin-left: 66px;
     margin-top: 98px;
-}
-.column-right {
-    float: left;
-    max-width: 800px;
-    min-width: 550px;
-    width: 50%;
+    width: 484px;
 }
 .logo {
     height: 276px;
-    margin-left: 0;
-    width: 276px;
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
+    width: 276px;
 }
 .circle-outer {
     background-color: #ffffff;
@@ -77,14 +67,12 @@ body {
     top: 0;
     width: 90%;
 }
-h1 {
+h1,h2,p {
     margin: 0;
 }
-h2 {
-    margin: 0;
-}
+
 .fullname {
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     line-height: 62px;
     margin-top: 36px;
     text-align: center;
@@ -113,54 +101,54 @@ h2 {
 .profile {
     margin-top: 80px;
 }
-.profile .bold, .contact .bold, .skills .bold, .education .bold, .experience .bold, .software .bold {
+.profile .bold, 
+.contact .bold, 
+.skills .bold, 
+.education .bold, 
+.experience .bold, 
+.software .bold {
     color: #3f6fb6;
     font-size: 49px;
     margin: 0;
 }
+
 .name-block {
     float: left;
-    margin-left: 11px;
+    margin-left: 12px;
     vertical-align: middle;
 }
-
 .line-block {
     background-color: #3f6fb6;
     bottom: 0;
     height: 7px;
-    margin: auto;
-    margin-left: 8px;
+    margin: auto auto auto 7px;
     position: absolute;
     top: 0;
     width: 100%;
 }
-
 .line-align {
     float: left;
     height: 85px;
     position: relative;
-    width: 201px;
+    width: 40%;
 }
-
 .text {
     font-family: MyriadProRegular;
     font-size: 18px;
     letter-spacing: 0;
     line-height: 22px;
-    width: 484px;
 }
 .text .bold {
     color: #000000;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 23.5px;
 }
 .contact {
     margin-top: 51px;
 }
-
 .contact-date {
-    line-height: 66px;
-    margin-top: 18px;
+    line-height: 62px;
+    margin-top: 23px;
 }
 .contact .circle-inner {
     background-image: url("images/contact.png");
@@ -170,39 +158,39 @@ h2 {
 }
 .education .circle-inner {
     background-image: url("images/education.png");
+    background-size: 75%;
 }
-.experience .circle-inner{
+.experience .circle-inner {
     background-image: url("images/experience.png");
 }
-.software .circle-inner{
+.software .circle-inner {
     background-image: url("images/software.png");
+    background-size: 65%;
 }
 .contact .line-align {
-    width: 177px;
+    width: 35%;
 }
-
 .skills {
-    margin-top: 40px;
+    margin-top: 35px;
 }
-
 .skills .line-align {
     width: 232px;
 }
-
-
-.contact-date h1 {
+.contact-date .name {
     color: #3d6cb0;
     font-family: MyriadProBold;
     font-size: 24px;
     font-weight: normal;
+    width: 20%;
+    display: inline-block;
 }
-.personal-date  h2{
+.contact-date .date {
     color: #000000;
     font-family: MyriadProRegular;
+    font-size: 24px;
+    margin-left: 54px;
 }
-
 .creative {
-
 }
 .point {
     background-color: #3f6fb6;
@@ -219,30 +207,110 @@ h2 {
     font-family: MyriadProRegular;
     font-size: 15px;
     font-weight: normal;
-
 }
-
-.skill {
-    margin-bottom: 30px;
+.user-date {
+    margin-left: 24px;
 }
-
 .column-title {
-    float:left;
+    float: left;
 }
-
 .column-date {
     float: left;
     margin-left: 52px;
 }
+.contact-date .title {
+
+}
+
+.right{
+    width: 748px;
+
+}
+
+.skills-date {
+    display: inline-block;
+    padding-top: -21px;
+    line-height: 69px;
+    text-align: center;
+    padding-left: 54px;
+    padding-top: 12px;
+}
+
+.education li {
+    
+}
+
+.degree {
+    color: #3f6fb6;
+    font-family: MyriadProBold;
+    font-size: 31px;
+
+}
+
+.degree-date,
+.university-name,
+.degree-description,
+.technology-title {
+    color: #000000;
+    font-family: MyriadProRegular;
+    font-size: 31px;
+}
+
+
+.education li {
+    list-style: none;
+}
+
+.education ul {
+    padding: 0;
+}
+
+.education .name-block{
+    margin-left: 30px;
+}
+
+.education p {
+    display: inline-block;
+}
+
+.marker{
+
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 50%;
+    vertical-align: middle; 
+}
+
+.degree-title{
+    display: inline;
+}
+
+.degree-description {
+    font-size: 18px;
+}
+
+.software-column {
+    float:left;
+}
+
+.right-pad{
+    margin-left: 80px;
+}
+.technology-title{
+    margin-bottom: 24px;
+    margin-top: 33px;
+}
 
 .bar {
     background-color: #3f6fb6;
-    width: 80%;
     height: 18px;
+    width: 80%;
 }
 .progress {
     background-color: #e6e6e6;
     border: 0 none;
     height: 18px;
-    width: 100px;
+    width: 332px;
 }
