@@ -113,11 +113,18 @@ h1,h2,p {
 }
 
 .title {
+    position: relative;
     line-height: 81px;
 }
 
 .profile {
     margin-top: 80px;
+}
+
+.circle {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 5;
 }
 
 .profile .bold, 
@@ -133,25 +140,26 @@ h1,h2,p {
 
 .name-block {
     float: left;
-    margin-left: 12px;
-    vertical-align: middle;
+    padding-left: 14.4px;
+    padding-right: 12.5px;
 }
 
 .line-block {
     background-color: #3f6fb6;
-    bottom: 0;
     height: 7px;
-    margin: auto auto auto 7px;
+    width: 100%;
     position: absolute;
     top: 0;
-    width: 100%;
+    bottom: 0;
+    margin: auto;
+    z-index: 0;
 }
 
-.line-align {
-    float: left;
-    height: 85px;
+.title-wrapper {
+    background-color: #ffffff;
     position: relative;
-    width: 40%;
+    z-index: 5;
+    float: left;
 }
 
 .text {
@@ -269,11 +277,9 @@ h1,h2,p {
 
 .skills-date {
     display: inline-block;
-    padding-top: -21px;
     line-height: 69px;
     text-align: center;
     padding-left: 54px;
-    padding-top: 12px;
 }
 
 .degree {
